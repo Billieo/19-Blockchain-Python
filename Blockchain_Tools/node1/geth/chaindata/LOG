@@ -1,0 +1,32 @@
+=============== Jul 20, 2021 (CDT) ===============
+17:30:32.027567 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:30:32.033629 db@open opening
+17:30:32.033629 version@stat F·[] S·0B[] Sc·[]
+17:30:32.033629 db@janitor F·2 G·0
+17:30:32.033629 db@open done T·0s
+17:30:32.038619 db@close closing
+17:30:32.038619 db@close done T·0s
+=============== Jul 21, 2021 (CDT) ===============
+11:27:03.252596 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:27:03.262591 version@stat F·[] S·0B[] Sc·[]
+11:27:03.262591 db@open opening
+11:27:03.262591 journal@recovery F·1
+11:27:03.267830 journal@recovery recovering @1
+11:27:03.286527 memdb@flush created L0@2 N·15 S·1021B "H%<..\xdc\xc2x,v8":"\xca\xe1Y..m\xf4\xa0,v5"
+11:27:03.293891 version@stat F·[1] S·1021B[1021B] Sc·[0.25]
+11:27:03.303745 db@janitor F·3 G·0
+11:27:03.303745 db@open done T·41.1541ms
+13:27:40.386315 db@close closing
+13:27:40.386841 db@close done T·526.7µs
+=============== Jul 21, 2021 (CDT) ===============
+13:28:15.212158 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:28:15.213668 version@stat F·[1] S·1021B[1021B] Sc·[0.25]
+13:28:15.213668 db@open opening
+13:28:15.213668 journal@recovery F·1
+13:28:15.218653 journal@recovery recovering @3
+13:28:15.222643 memdb@flush created L0@5 N·35 S·1KiB "#\xfb!..1\x98\x9a,v47":"\xc3\b\xbe..v\xe8\x9d,v49"
+13:28:15.231130 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+13:28:15.239110 db@janitor F·4 G·0
+13:28:15.239110 db@open done T·25.4415ms
+21:50:30.755834 db@close closing
+21:50:30.756695 db@close done T·860.2µs
