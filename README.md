@@ -53,11 +53,11 @@ def send_tx(coin, account, to, amount):
 - To send the btc transaction the following code was executed
 send_tx(BTCTEST, account, 'n1kUxYxiTfsTizXZBHPCkH2qd4XiACrWUf', '0.0001')
 
-BTC transaction
-![alttext](image/Bitcoin1.png)
+
+![alttext](Image/Bitcoin1.png)
 
 
-![alttext](image/Bitcoin2.png)
+![alttext](Image/Bitcoin2.png)
 
 
-![alttext](image/Btctranscode.png)
+![alttext](Image/Btctranscode.png)
