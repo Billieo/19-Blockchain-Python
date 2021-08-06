@@ -29,10 +29,10 @@ w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 w3.eth.setGasPriceStrategy(medium_gas_price_strategy)
  
  
-# Create a function called `derive_wallets`
+
 myMnemonic = "milk dress vote orange diesel cigar reject start fury genius remind dose"
 
-
+# Create a function called `derive_wallets`
 def derive_wallets(mnemonic=myMnemonic, coin=BTC, numderive=3,):
     command = f"php ./hd-wallet-derive/hd-wallet-derive.php -g --mnemonic=\"{mnemonic}\" --coin={coin} --numderive={numderive} --cols=path,address,privkey --format=json"
     p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
@@ -53,6 +53,7 @@ print(coins)
 def priv_key_to_account(coin, priv_key):
     # YOUR CODE HERE
     if coin == ETH:
+        print(priv_key)
         return Account.privateKeyToAccount(priv_key)
     if coin == BTCTEST:
         print(priv_key)
